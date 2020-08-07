@@ -1,0 +1,17 @@
+[package]
+name = "dns_resolve"
+version = "0.0.1-alpha.1"
+authors = ["Tim Serowski <info@timserowski.de>"]
+edition = "2018"
+description="Resolves a DNS by name and delivers the A-Record"
+readme="README.md"
+repository="https://github.com/tserowski/dns_resolve"
+homepage="https://github.com/tserowski/dns_resolve"
+license="Apache-2.0"
+keywords=["DNS"]
+categories=["network-programming", "parsing", "web-programming"]
+
+[dependencies]
+domain = "0.5"
+domain-resolv = "0.5"
+tokio = "0.2"
